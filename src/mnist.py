@@ -24,9 +24,8 @@ class Mnist:
         self.X = self.X / 255
         return self
 
-    def reshape(self,shape=(1,784)):
+    def reshape(self):
         self.X = self.X.reshape((60000,784))
-        # self.X = self.X.reshape((-1,)+shape)
         return self
     
     def one_hot_encode(self):
