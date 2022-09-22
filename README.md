@@ -16,3 +16,6 @@ and then
 ```bash
 $ python main.py
 ```
+
+## References
+* [Backpropagation](https://medium.com/ai-academy-taiwan/back-propagation-3946e8ed8c55)
